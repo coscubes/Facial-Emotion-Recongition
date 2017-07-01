@@ -1,0 +1,137 @@
+ Adaboost Classifier
+[ 0.58333333  0.68181818  0.71428571  0.42857143  0.47619048  0.66666667
+  0.61904762  0.61904762  0.28571429  0.65      ]
+Accuracy 0.572467532468
+
+Bagging Classifier
+[ 0.41666667  0.31818182  0.28571429  0.33333333  0.33333333  0.28571429
+  0.28571429  0.52380952  0.38095238  0.3       ]
+Accuracy 0.346341991342
+
+BernoulliNB classifier
+[ 0.16666667  0.18181818  0.14285714  0.14285714  0.14285714  0.14285714
+  0.14285714  0.14285714  0.14285714  0.15      ]
+Accuracy 0.149848484848
+
+Decision Tree Classifier
+[ 0.58333333  0.40909091  0.38095238  0.28571429  0.33333333  0.38095238
+  0.61904762  0.23809524  0.33333333  0.5       ]
+Accuracy 0.406385281385
+
+Extra trees classifier
+[ 0.625       0.40909091  0.52380952  0.52380952  0.42857143  0.57142857
+  0.42857143  0.52380952  0.52380952  0.65      ]
+Accuracy 0.52079004329
+
+Gaussian NB
+[ 0.75        0.45454545  0.71428571  0.52380952  0.52380952  0.66666667
+  0.57142857  0.76190476  0.57142857  0.6       ]
+Accuracy 0.613787878788
+
+GradientBoostingClassifier
+[ 0.5         0.59090909  0.57142857  0.28571429  0.42857143  0.57142857
+  0.57142857  0.42857143  0.57142857  0.55      ]
+Accuracy 0.506948051948
+
+KNeighborsClassifier n = 1
+[ 0.91666667  0.77272727  0.95238095  0.80952381  0.80952381  0.9047619   1.
+  0.95238095  0.80952381  0.75      ]
+Accuracy 0.867748917749
+
+KNeighborsClassifier n = 2
+[ 0.79166667  0.77272727  0.71428571  0.61904762  0.57142857  0.95238095
+  0.80952381  0.80952381  0.57142857  0.6       ]
+Accuracy 0.721201298701
+
+KNeighborsClassifier n = 5
+[ 0.58333333  0.31818182  0.38095238  0.47619048  0.42857143  0.42857143
+  0.42857143  0.52380952  0.28571429  0.3       ]
+Accuracy 0.41538961039
+
+LinearSVC
+[ 0.83333333  0.86363636  0.95238095  0.76190476  0.76190476  0.9047619
+  0.9047619   0.9047619   0.85714286  0.8       ]
+Accuracy 0.854458874459
+
+Using Logistic regression
+[ 0.75        0.81818182  0.9047619   0.71428571  0.80952381  0.76190476
+  0.9047619   0.85714286  0.71428571  0.7       ]
+Accuracy 0.793484848485
+
+Using MLPClassifier single hidden layer
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+[ 0.875       0.86363636  0.95238095  0.76190476  0.85714286  0.9047619
+  0.9047619   0.9047619   0.85714286  0.8       ]
+Accuracy 0.868149350649
+
+Using MLPClassifier 3 hidden layer
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+/home/kaustubh/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+[ 0.83333333  0.77272727  0.95238095  0.80952381  0.61904762  0.9047619
+  0.95238095  0.80952381  0.80952381  0.65      ]
+Accuracy 0.81132034632
+
+Using nearest centroid
+[ 0.58333333  0.5         0.61904762  0.52380952  0.38095238  0.61904762
+  0.52380952  0.76190476  0.38095238  0.45      ]
+Accuracy 0.534285714286
+
+nusvc
+[ 0.875       0.77272727  0.95238095  0.61904762  0.76190476  0.76190476
+  0.76190476  0.9047619   0.71428571  0.65      ]
+Accuracy 0.777391774892
+
+Using Passive aggressive Classifier
+[ 0.54166667  0.45454545  0.52380952  0.52380952  0.57142857  0.66666667
+  0.38095238  0.71428571  0.19047619  0.55      ]
+Accuracy 0.511764069264
+
+Using the perceptron
+[ 0.625       0.5         0.71428571  0.57142857  0.38095238  0.57142857
+  0.33333333  0.47619048  0.33333333  0.5       ]
+Accuracy 0.500595238095
+
+Using Random Forest classifiers
+[ 0.66666667  0.54545455  0.85714286  0.76190476  0.66666667  0.71428571
+  0.71428571  0.61904762  0.61904762  0.7       ]
+Accuracy 0.68645021645
+
+Using Ridge Classifier
+[ 0.83333333  0.86363636  1.          0.66666667  0.80952381  0.9047619
+  0.9047619   0.85714286  0.80952381  0.85      ]
+Accuracy 0.849935064935
+
+Using Stochastic gradient descent
+[ 0.58333333  0.63636364  0.76190476  0.66666667  0.52380952  0.52380952
+  0.47619048  0.47619048  0.38095238  0.5       ]
+Accuracy 0.552922077922
+
+Support vector Classifier kernel = rbf
+[ 0.16666667  0.27272727  0.14285714  0.14285714  0.14285714  0.14285714
+  0.14285714  0.14285714  0.14285714  0.15      ]
+Accuracy 0.158939393939
+
+Support vector classifier kernel = linear
+[ 0.875       0.90909091  1.          0.76190476  0.76190476  0.9047619
+  0.9047619   0.95238095  0.9047619   0.75      ]
+Accuracy 0.872456709957
+
+Support Vector classifier kernel = poly
+[ 0.875       0.90909091  1.          0.80952381  0.80952381  1.          0.9047619
+  0.95238095  0.9047619   0.8       ]
+Accuracy 0.896504329004
+kaustubh@myubuntu:~/kaustubh_imp/emotion recogntion/jaffeimages$ 
+
